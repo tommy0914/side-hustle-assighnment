@@ -1,0 +1,178 @@
+.road{
+    background-repeat: repeat-x; 
+    height: 105vh;
+    width: 150em;
+    animation-name: city;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes city{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-40em);
+     }
+}
+.car1{
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    animation-name: car;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.wheel1{
+    width: 4%;
+    position: absolute;
+    top: 66%;
+    left: 21.5%;
+    animation-name: rotate;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.wheel2{
+    width: 4%;
+    position: absolute;
+    top: 66%;
+    left: 6%;
+    animation-name: rotate;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    from{
+        transform: translateX(-300px) rotate(0deg);
+    }
+    to{
+        transform: translateX(150em) rotate(360deg);
+    }
+}
+@keyframes car{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(150em);
+    }
+}
+.lambo{
+    width: 30%;
+    position: absolute;
+    top: 72%;
+    animation-name: lambo;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.wheel3{
+    width: 4.5%;
+    position: absolute;
+    top: 80%;
+    left: 5.5%;
+    animation-name: rotator;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.wheel4{
+    width: 4.5%;
+    position: absolute;
+    top: 80%;
+    left: 23.5%;
+    animation-name: rotator;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes lambo{
+    from{
+        transform: translateX(150em);
+    }
+    to{
+        transform: translateX(-200em);
+    }
+}
+@keyframes rotator{
+    from{
+        transform: translateX(150em) rotate(0deg);
+    }
+    to{
+        transform: translateX(-200em) rotate(-360deg);
+    }
+}
+.police{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    margin-top: -2%;
+    animation-name: car2;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+    
+}
+@keyframes car2{
+    from{
+        transform: translateX(-10px);
+        
+    }
+    to{
+        transform: translateX(150em);
+    }
+}
+.bird{
+    position: absolute;
+    top: -10%;
+    animation-name: lambor;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes lambor{
+    from{
+        transform: translateX(120em);
+    }
+    to{
+        transform: translateX(-200em);
+    }
+}
+.pizza{
+    position: absolute;
+    top: 45%;
+    width: 20%;
+    animation-name: lambor;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.plane{
+    position: absolute;
+    top: 12%;
+    animation-name: lambor;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-delay: 5s;
+}
+
+
+
+
+
+
+
+
+
